@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">NewsFeed</string>
+    <string name="action_list">List</string>
+    <string name="news_image_description">News Image</string>
+    <string name="action_search">Search</string>
+    <string name="news_saved_message">News Saved</string>
+    <string name="news_pinned_message">News Pinned to Home Screen</string>
+    <string name="failed_to_save">Failed to save news in DB</string>
+    <string name="new_news_loaded">New News Loaded On the Top</string>
+    <string name="channel_name">NewsFeedNotificationChanel</string>
+    <string name="channel_description">NewsFeedNotificationChanelDescription</string>
+    <string name="notification_title">News Feed App</string>
+    <string name="notification_text">New News Have Already Loaded!!!</string>
+</resources>

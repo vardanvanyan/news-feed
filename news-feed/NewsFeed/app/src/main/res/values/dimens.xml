@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="news_title_text_size">18sp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="card_elevation">5dp</dimen>
+    <dimen name="card_image_height">200dp</dimen>
+    <dimen name="news_category_text_size">14sp</dimen>
+    <dimen name="news_image_detail">250dp</dimen>
+    <dimen name="detail_toolbar_height">250dp</dimen>
+    <dimen name="news_detail_title">22sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="pinned_card_image_size">100dp</dimen>
+    <dimen name="pinned_news_title_text_size">14sp</dimen>
+</resources>

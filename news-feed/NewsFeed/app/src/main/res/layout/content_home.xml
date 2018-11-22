@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="vardanvanyan.com.newsfeed.activities.HomeActivity"
+    tools:showIn="@layout/activity_home">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/pin_items_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:clipToPadding="false"
+        android:scrollbars="horizontal"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/news_items_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/pin_items_list"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+</RelativeLayout>
